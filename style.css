@@ -14,7 +14,7 @@ img{
 
 }
 
-header{
+header {
     background-color: #323e81;
     width: 100%;
     height: 70px;
@@ -29,14 +29,15 @@ nav{
     margin-right: 70px;
 }
 
-    ul{
+ul{
     display: flex;
     gap: 50px;
     list-style: none;
-    }
+}
 
 
 #nome_Logo {
+    height: 20px;
     margin: 20px;
     margin-left: 120px;
     
@@ -45,18 +46,46 @@ nav{
     margin: 20px;
 }
 
-a{
+.menu{
     text-decoration: none;
     color:#FFF;
-    display: inline-block;
     transition: 0.4s;
     padding: 10PX;
 }
-a:hover{
+.menu:hover{
     color:black;
     transform: scale(1.4);
     background-color: #93b2eb;
     border-radius: 4px;
     border:2px solid white;
     box-shadow:  1px 2px 2px 2px cornflowerblue;
+}
+section{
+    width: 100%;
+    display: flex;
+    
+}
+
+section div{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px;
+    
+}
+
+h1, p{
+    margin-bottom: 10px;
+}
+
+#paragrafo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#btnVerLivros{
+    background-color: #93b2eb;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 8px;
+    
 }
