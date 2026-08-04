@@ -1,91 +1,170 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+:root{
+    --azul-principal:#167CBF
+}
+* {
     margin: 0;
-     font-family: "Poppins", sans-serif;
-     font-weight: 427;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-img{
-    
-    width: 100px;
-    margin-right: 400px;
-
+ 
+body  {
+    background-color: rgba(237, 238, 238, 0.233);
+    color: black;
+    font-size: 30;
 }
-
-header {
-    background-color: #323e81;
+ 
+ 
+header{
+   
+    margin: 0;
+    padding: 0;
+   
+    background-color:#f2f2f2;
     width: 100%;
+    max-width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #FFF;
-    width: 100%;
-    height: 70px;
+    color: #222f75;
 }
-nav{ 
-    margin-right: 70px;
+#nome-logo{
+    font-weight: 900;
+    font-size: 25px;
 }
-
+span{
+    font-weight: 900;
+    font-size: 25px;
+    color: rgba(250, 171, 0, 0.89);
+}
+ 
+a {
+    color: #0c0c0c;
+}
+nav{
+    margin-right: 50px;
+}
 ul{
     display: flex;
     gap: 50px;
     list-style: none;
 }
-
-
-#nome_Logo {
-    height: 20px;
-    margin: 20px;
-    margin-left: 120px;
-    
-}
-#Indice_1 {
-    margin: 20px;
-}
-
+       #nome-logo{
+         margin:50px;
+         gap:50px ;
+       }
 .menu{
+    display: inline-block;
     text-decoration: none;
-    color:#FFF;
-    transition: 0.4s;
-    padding: 10PX;
+    padding: 5px;
+    color: rgb(19, 19, 78);
+    transition: 0.3s;
 }
 .menu:hover{
-    color:black;
-    transform: scale(1.4);
-    background-color: #93b2eb;
+   color: rgba(255, 245, 245, 0.89);
+    transform: scale(1.6);
+    background-color: rgba(22, 51, 105, 0.89);
     border-radius: 4px;
-    border:2px solid white;
-    box-shadow:  1px 2px 2px 2px cornflowerblue;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px 2px rgb(110, 144, 172);
 }
-section{
-    width: 100%;
-    display: flex;
-    
-}
-
-section div{
-    justify-content: center;
-    margin: 0 auto;
-    padding: 60px;
-    
-}
-
-h1, p{
-    margin-bottom: 10px;
-}
-
-#paragrafo{
+.banner-principal{
     text-align: center;
-    margin-bottom: 10px;
+    padding: 30px 200px;
+    background-image: url(image_fundo.png);
+    color: #fffdfd(100, 92, 92);
+    height: 40vh;
+    font-size: 20px;
 }
 
-#btnVerLivros{
-    background-color: #93b2eb;
+/*background-color:#21667a;*/
+
+h1 {
+    color: #dfdfdf;
+padding-bottom: 50px;
+padding-top: 50px;
+font-size: 25px;
+}
+ 
+p{
+    color: #dfdfdf;
+    margin-bottom: 40px;
+    font-size: 25px;
+   
+}
+ 
+#btn-ver-livros{
+    color: rgba(250, 171, 0, 0.89);
+    transition:0.2s;
+}
+#btn-ver-livros:hover{
+    
+    background-color: #f2f2f2;
     text-decoration: none;
-    padding: 14px;
-    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px ;
+    margin:10px ;
+}
+
+.chamada_Acao{
+    color:#727272;
+    font-size: 17px;
+    padding-left: 45px;
     
 }
+
+.book{
+     color: rgba(250, 171, 0, 0.89);
+     font-size: 35px;
+}
+ 
+.grade-livros{
+    display: flex;
+    padding: 25px;
+    background-color: #dfe1ec;
+}
+
+
+.Autor_Livro{
+    color: #000000;
+  font-size: medium;
+}
+
+.card-livro{
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 12px;
+    box-shadow: 0px 0px 10px var rgb(120, 120, 122);
+}
+
+.btn_Encontro{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.apresentacao_Encontros{
+    display: flex;
+    padding:  40px;
+    align-items: center;
+
+    
+}
+.titulo_Encontros{
+    border-left: 4px solid #F4B400;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 135px;
+}
+
+.foto-livro{
+    max-width: 195px;
+}
+
