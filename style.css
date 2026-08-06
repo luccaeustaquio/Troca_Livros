@@ -2,6 +2,7 @@
  
 :root{
     --azul-principal:#167CBF
+    
 }
 * {
     margin: 0;
@@ -58,23 +59,28 @@ ul{
        }
 .menu{
     display: inline-block;
+    font-size: large;
     text-decoration: none;
     padding: 5px;
     color: rgb(19, 19, 78);
     transition: 0.3s;
+    font-display: swap;
+    font-weight: bold;
 }
 .menu:hover{
    color: rgba(255, 245, 245, 0.89);
     transform: scale(1.6);
-    background-color: rgba(22, 51, 105, 0.89);
+    background-color: rgba(16, 36, 71, 0.89);
     border-radius: 4px;
     border: 2px solid;
     box-shadow: 2px 2px 2px 2px rgb(110, 144, 172);
+    
 }
 .banner-principal{
     text-align: center;
     padding: 30px 200px;
     background-image: url(image_fundo.png);
+    background-color: #10142b;
     color: #fffdfd(100, 92, 92);
     height: 40vh;
     font-size: 20px;
@@ -110,12 +116,6 @@ p{
     margin:10px ;
 }
 
-.chamada_Acao{
-    color:#727272;
-    font-size: 17px;
-    padding-left: 45px;
-    
-}
 
 .book{
      color: rgba(250, 171, 0, 0.89);
@@ -125,7 +125,8 @@ p{
 .grade-livros{
     display: flex;
     padding: 25px;
-    background-color: #dfe1ec;
+    background-color: #727272;
+    
 }
 
 
@@ -139,9 +140,14 @@ p{
     text-align: center;
     border-radius: 8px;
     background-color: #ffffff;
-    padding: 12px;
+    padding: 25px;
     box-shadow: 0px 0px 10px var rgb(120, 120, 122);
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
+
 
 .btn_Encontro{
     background-color: #dfdfdf;
@@ -153,7 +159,7 @@ p{
     display: flex;
     padding:  40px;
     align-items: center;
-
+    gap: 20px;
     
 }
 .titulo_Encontros{
@@ -162,6 +168,12 @@ p{
     font-size: 35px;
     font-weight: bolder;
     margin-left: 135px;
+}
+
+.chamada_Acao{
+    color:#727272;
+    font-size: 17px;
+    margin: 0;
 }
 
 .foto-livro{
