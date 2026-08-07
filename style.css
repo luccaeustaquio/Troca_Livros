@@ -1,29 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
- 
-:root{
-    --azul-principal:#167CBF
-    
+
+:root {
+    --azul-principal: #167CBF
 }
+
 * {
     margin: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
- 
-body  {
+
+body {
     background-color: rgba(237, 238, 238, 0.233);
     color: black;
     font-size: 30;
 }
- 
- 
-header{
-   
+
+
+header {
     margin: 0;
     padding: 0;
-   
-    background-color:#f2f2f2;
+    background-color: #f2f2f2;
     width: 100%;
     max-width: 100%;
     height: 70px;
@@ -31,111 +29,131 @@ header{
     justify-content: space-between;
     align-items: center;
     color: #222f75;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }
-#nome-logo{
+
+#nome-logo {
     font-weight: 900;
     font-size: 25px;
 }
-span{
+
+span {
     font-weight: 900;
     font-size: 25px;
     color: rgba(250, 171, 0, 0.89);
 }
- 
+
+#Troque_Livros_Inicio{
+    color: #F4B400;
+}
+
 a {
     color: #0c0c0c;
 }
-nav{
+
+nav {
     margin-right: 50px;
 }
-ul{
+
+ul {
     display: flex;
     gap: 50px;
     list-style: none;
 }
-       #nome-logo{
-         margin:50px;
-         gap:50px ;
-       }
-.menu{
+
+#nome-logo {
+    margin: 50px;
+    gap: 50px;
+    color: #000000;
+}
+
+.menu {
     display: inline-block;
     font-size: large;
     text-decoration: none;
     padding: 5px;
     color: rgb(19, 19, 78);
-    transition: 0.3s;
+    transition: 0.5s;
     font-display: swap;
     font-weight: bold;
 }
-.menu:hover{
-   color: rgba(255, 245, 245, 0.89);
-    transform: scale(1.6);
+
+.menu:hover {
+    color: rgba(255, 245, 245, 0.89);
     background-color: rgba(16, 36, 71, 0.89);
     border-radius: 4px;
     border: 2px solid;
     box-shadow: 2px 2px 2px 2px rgb(110, 144, 172);
+    transform: translateY(-2px);
     
-}
-.banner-principal{
-    text-align: center;
-    padding: 30px 200px;
-    background-image: url(image_fundo.png);
-    background-color: #10142b;
-    color: #fffdfd(100, 92, 92);
-    height: 40vh;
-    font-size: 20px;
+
 }
 
+.banner-principal {
+    text-align: center;
+    padding: 30px 200px;
+    color: #050404(100, 92, 92);
+    height: 40vh;
+    font-size: 20px;
+    background-image: url(fundo_principal.png);
+}
+
+#Frase_Impacto{
+    
+}
 /*background-color:#21667a;*/
 
 h1 {
-    color: #dfdfdf;
-padding-bottom: 50px;
-padding-top: 50px;
-font-size: 25px;
+    color: #000000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 25px;
 }
- 
-p{
-    color: #dfdfdf;
+
+p {
+    color: #000000;
     margin-bottom: 40px;
     font-size: 25px;
-   
+
 }
- 
-#btn-ver-livros{
+
+#btn-ver-livros {
     color: rgba(250, 171, 0, 0.89);
-    transition:0.2s;
+    transition: 0.2s;
 }
-#btn-ver-livros:hover{
-    
+
+#btn-ver-livros:hover {
+
     background-color: #f2f2f2;
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 20px;
-    border-radius: 10px ;
-    margin:10px ;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 
-.book{
-     color: rgba(250, 171, 0, 0.89);
-     font-size: 35px;
+.book {
+    color: rgba(250, 171, 0, 0.89);
+    font-size: 35px;
 }
- 
-.grade-livros{
+
+.grade-livros {
     display: flex;
     padding: 25px;
-    background-color: #727272;
     
+
 }
 
 
-.Autor_Livro{
+.Autor_Livro {
     color: #000000;
-  font-size: medium;
+    font-size: medium;
 }
 
-.card-livro{
+/*.card-livro{
     width: 300px;
     text-align: center;
     border-radius: 8px;
@@ -146,23 +164,49 @@ p{
     margin-left: 20px;
     margin-right: 20px;
     
+}*/
+
+.book_baixo{
+    width: 200px;
+}
+.card-livro {
+    
+    
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px var rgb(120, 120, 122);
+    overflow: Hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-livro{
+    justify-content: end;
 }
 
 
-.btn_Encontro{
-    background-color: #dfdfdf;
+.btn_Encontro {
+    justify-content: end;
+    width: 200px;
+    height: 40px;
+    background-color: #F4B400;
     border-radius: 10px;
     transition: 2s;
+    color: white;
+    text-decoration: none;
 }
 
-.apresentacao_Encontros{
+.apresentacao_Encontros {
     display: flex;
-    padding:  40px;
+    padding: 40px;
     align-items: center;
     gap: 20px;
-    
+
 }
-.titulo_Encontros{
+
+.titulo_Encontros {
     border-left: 4px solid #F4B400;
     text-align: left;
     font-size: 35px;
@@ -170,13 +214,51 @@ p{
     margin-left: 135px;
 }
 
-.chamada_Acao{
-    color:#727272;
+.chamada_Acao {
+    color: #727272;
     font-size: 17px;
     margin: 0;
 }
 
-.foto-livro{
+.foto-livro {
     max-width: 195px;
 }
 
+
+.ajuda {
+    /*background: linear-gradient(rgb(218, 218, 218),rgba(7, 28, 51, 0.233));*/
+    padding: 60px;
+}
+
+.ajuda h2 {
+    color: #F4B400;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+#como_Funciona {
+    font-size: bold;
+}
+
+.todos-passos {
+    
+    display: flex;
+    justify-content: center;
+    max-width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.passo{
+    width: 25vw;
+    padding: 20px;
+}
+
+.como_utilizar{
+    
+}
