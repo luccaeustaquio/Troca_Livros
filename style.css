@@ -33,14 +33,15 @@ header {
 }
 
 #nome-logo {
-    font-weight: 900;
-    font-size: 25px;
+    font-weight: bolder;
+    font-size: 26px;
 }
 
 span {
     font-weight: 900;
     font-size: 25px;
     color: rgba(250, 171, 0, 0.89);
+    font-weight: bolder;
 }
 
 #Troque_Livros_Inicio{
@@ -112,11 +113,16 @@ ul {
 
 #Frase_Impacto{
     margin-bottom: 35px;
+    font-size: 45px;
 }
 
 #Frase_Inicio{
     
     padding: 0;
+}
+
+#historias{
+    font-size: 50px;
 }
 /*background-color:#21667a;*/
 
@@ -141,9 +147,9 @@ p {
 
 #btn-ver-livros:hover {
 
-    background-color: #f2f2f2;
+    background-color: #13182c;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
@@ -208,9 +214,11 @@ p {
     background-color: #F4B400;
     border-radius: 10px;
     transition: 2s;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     justify-content: flex-start;
+    transition: 0.3s;
+    font-weight: 400;
 
     
 }
@@ -258,11 +266,14 @@ p {
     color: #F4B400;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 35px;
+    
 }
 
 #como_Funciona {
     font-size: bold;
+    color: #ffffff;
+    background-color: #13182c;
+    text-align: center;
 }
 
 .todos-passos {
@@ -276,16 +287,104 @@ p {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .passo{
     width: 25vw;
     padding: 20px;
-}
-
-.como_utilizar{
     
 }
+
+.passo_Instrucao{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.numero-passo{
+    font-size: 40px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    max-width: 85vw;  
+}
+
+#book2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #F4B400; 
+    
+}
+
+#frase_Final_footer{
+    text-align: center;
+    background-color: #13182c;
+    color: #ffffff;
+}
+.footer_Pagina{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #13182c;
+    color: #ffffff;
+}
+
 .footer-container{
-    background-image: linear-gradient(rgb(24,rgb(45, 45, 65) 56) , blue );
+    display: flex;
+    max-width: 85vw;
+    justify-content: space-between;
+    gap: 20vw ;
+    
+   
+}
+.footer-container{
+    color: #F4B400;
+}
+
+
+.footer-coluna{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #F4B400;
+    
+}
+.footer-coluna ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-social{
+    color: #F4B400;
+}
+.footer-social-link{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-decoration: none;
+    margin-top: 15px;
+   
+}
+
+.footer-Navegacao{
+    color: #e2e2e2;
+}
+
+.footer-nav-link{
+ color: #ffffff;
+ text-decoration: none;
+}
+
+.footer-copy{
+    margin-top: 30px;
+    color: #ecdd07;
 }
