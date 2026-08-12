@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -15,24 +16,27 @@
         <nav>
             <ul>
 
-                <li> <a class="menu" href="#"> Início </a> </li>
-                <li> <a class="menu" href="#"> Livros </a> </li>
-                <li> <a class="menu" href="#"> Conta </a> </li>
+                <li> <a class="menu" href="#Inicio"> Início </a> </li>
+                <li> <a class="menu" href="#Livros"> Livros </a> </li>
+                <li> <a class="menu" href="#Ajuda"> Ajuda </a> </li>
+                <li> <a id="btn_Entrar" href="#Entrar"> Entrar </a> </li>
             </ul>
 
         </nav>
 
     </header>
-    <section class="banner-principal">
+    <section class="banner-principal" id="Inicio">
 
         <div class="texto_Banner">
 
-            <h2 id="Frase_Impacto">Troque Livros <br>
-                Descubra novas <span id="historias"> histórias </span></h2>
+            <h2 id="Frase_Impacto"> Descubra novas <span id="historias"> <br> histórias </span></h2>
             <p id="Frase_Inicio">Faça seu NetbookWork e conecte-se com leitores de todo o Brasil e encontre o proóximo
                 livro da sua coleção</p>
 
-            <a id="btn-ver-livros" href="#livros">Encontre já o seu NetbookWork</a>
+            <a id="btn-ver-livros" href="#livros" class="btn-ver-livros">
+                <img src="img/book_ribbon_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Livro">
+                Encontre já o seu NetBookWork
+            </a>
 
         </div>
 
@@ -46,7 +50,7 @@
     </div>
 
 
-    <section class="grade-livros">
+    <section class="grade-livros" id="Livros">
         <div class="card-livro">
             <img class="tamanho_Img" src="img/python_para_dados.jpg" alt=img class="foto-livro">
             <div class="info-livro">
@@ -100,7 +104,7 @@
 
     </section>
 
-    <section class="ajuda">
+    <section class="ajuda" id="Ajuda">
         <h2 id="como_Funciona"> Como Funciona </h2>
 
         <div class="todos-passos">
@@ -144,9 +148,9 @@
             <div class="footer-social">
                 <h4> Redes Sociais </h4>
                 <ul>
-                <a class="footer-social-link" href="#"> Instagram </a>
-                <a class="footer-social-link" href="#"> Twitter </a>
-                <a class="footer-social-link" href="#"> Linkedin </a>
+                    <a class="footer-social-link" href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a class="footer-social-link" href="#"> <i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-social-link" href="#"> <i class="fa-brands fa-linkedin"></i></a>
                 </ul>
             </div>
 

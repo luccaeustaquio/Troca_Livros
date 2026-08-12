@@ -60,6 +60,7 @@ ul {
     display: flex;
     gap: 50px;
     list-style: none;
+    text-decoration: none;
 }
 
 #nome-logo {
@@ -67,6 +68,7 @@ ul {
     gap: 50px;
     color: #000000;
 }
+
 
 .menu {
     display: inline-block;
@@ -79,12 +81,18 @@ ul {
     font-weight: bold;
 }
 
+.btn_Entrar{
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold ;
+}
+
 .menu:hover {
-    color: rgba(255, 245, 245, 0.89);
-    background-color: rgba(16, 36, 71, 0.89);
+    color: #13182c;
+    background-color: rgba(233, 233, 233, 0.89);
     border-radius: 4px;
     border: 2px solid;
-    box-shadow: 2px 2px 2px 2px rgb(110, 144, 172);
+    box-shadow: 2px 2px 2px 2px #a0931f;
     transform: translateY(-2px);
     
 
@@ -113,16 +121,18 @@ ul {
 
 #Frase_Impacto{
     margin-bottom: 35px;
-    font-size: 45px;
+    font-size: 65px;
+    font-weight: bolder;
+    color: #13182c;
 }
 
 #Frase_Inicio{
-    
     padding: 0;
+    font-size: 23px;
 }
 
 #historias{
-    font-size: 50px;
+    font-size: 60px;
 }
 /*background-color:#21667a;*/
 
@@ -141,18 +151,29 @@ p {
 }
 
 #btn-ver-livros {
-    color: rgba(250, 171, 0, 0.89);
+    color: rgba(255, 255, 255, 0.89);
     transition: 0.2s;
+    background-color: #13182c;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
 }
 
 #btn-ver-livros:hover {
 
-    background-color: #13182c;
+    background-color: #F4B400;
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
+}
+
+
+#btn-ver-livros img{
+    width: 30px;
+     height: 32px;
 }
 
 
@@ -164,6 +185,7 @@ p {
 .grade-livros {
     display: flex;
     padding: 25px;
+    
     
 
 }
@@ -362,8 +384,21 @@ p {
     text-decoration: none;
     color: #ffffff;
 }
+
+.footer-coluna li a:hover{
+    color: #F4B400;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
 .footer-social{
     color: #F4B400;
+}
+
+.footer-social i:hover{
+    color: #F4B400;
+    transition: 0.3s;
+    transform: scale(1.2);
 }
 .footer-social-link{
     color: #ffffff;
@@ -373,6 +408,9 @@ p {
     text-decoration: none;
     margin-top: 15px;
    
+}
+.footer-social i {
+    font-size: 35px;
 }
 
 .footer-Navegacao{
@@ -385,6 +423,10 @@ p {
 }
 
 .footer-copy{
+    border-top: 2px solid #F4B400;
     margin-top: 30px;
-    color: #ecdd07;
+    color: #f7f7f7;
 }
+
+
+
