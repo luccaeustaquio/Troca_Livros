@@ -1,0 +1,45 @@
+@import url(style.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 1142px;
+    height: 673px;
+    border: 2px solid rgb(19, 19, 78);;
+    margin: 0 auto;
+    margin-top: 115px;
+    display: flex;
+}
+
+
+img{
+    height: 673px;
+    width: 500px;
+}
+
+.sessao_Imagem{
+    background-image: url(img/login_Fundo.png);
+    height: 673px;
+    width: 610px;
+
+}
+
+.sessao_Login{
+    width: 500px;
+    justify-content: center;
+}
+
+.btn_Login{
+    
+ border-radius: 5px;
+ width: 170px;
+ height: 25px;
+ background-color:  #13182c;
+ color: aliceblue;
+margin-top: 400px;
+margin-left: 30px;
+    
+}

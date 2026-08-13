@@ -81,11 +81,7 @@ ul {
     font-weight: bold;
 }
 
-.btn_Entrar{
-    font-size: large;
-    text-decoration: none;
-    font-weight: bold ;
-}
+
 
 .menu:hover {
     color: #13182c;
@@ -186,9 +182,27 @@ p {
     display: flex;
     padding: 25px;
     
-    
 
 }
+
+.card-livro {
+    
+    display: inline-block;
+    width: 34vw;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff8f8;
+    padding: 30px;
+    box-shadow: 0px 0px 10px var rgb(120, 120, 122);
+    overflow: Hidden;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.tamanho_Img{
+    margin-right: 30px;
+}
+
 
 
 .Autor_Livro {
@@ -210,19 +224,6 @@ p {
 }*/
 
 
-.card-livro {
-    
-    display: inline-block;
-    width: 12vw;
-    text-align: center;
-    border-radius: 8px;
-    background-color: #ffffff;
-    padding: 30px;
-    box-shadow: 0px 0px 10px var rgb(120, 120, 122);
-    overflow: Hidden;
-    margin-left: 60px;
-    margin-right: 20px;
-}
 
 .info-livro{
     justify-content: end;
@@ -394,6 +395,7 @@ p {
 .footer-social{
     color: #F4B400;
 }
+
 
 .footer-social i:hover{
     color: #F4B400;
