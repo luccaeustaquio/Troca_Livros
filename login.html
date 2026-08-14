@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
     <title> Pagina de Login </title>
 </head>
+
 <body>
-        <main>
-                <div class="sessao_Imagem">
+    <main>
+        <div class="sessao_Imagem">
 
 
+        </div>
+
+        <div class="sessao_Login">
+            <div class="apresentacao_Login">
+                <h1 id="login"> Net<span>book</span>Work</h1>
+                <h3 id="login_h3"> Troque Livros, Multiplique Histórias </h3>
+            </div>
+            <form action="#" method="post" id="form_Login">
+
+                
+                    <label for="usuario_Email"> Usuário ou Email </label>
+                    <input type="text" id="usuario" placeholder="Informe seu Username">
+                    <label for="senha"> Senha </label>
+                    <input type="password" id="senha" placeholder="Informe seu Password">
+
+                <div class="links_Senha">
+
+                    <input type="checkbox" id="lembrar_senha">
+                    <label for="lembrar_senha"> Lembrar Senha </label>
+
+                    <a href="#" id="esqueceu_Senha"> Esqueceu a senha? </a>
                 </div>
 
-                <div class="sessao_Login">
-                    <button class="btn_Login"> Login </button>
-                </div>
-                
-                
+                <button id="acessar_Btn"> Acessar </button>
+                <a href="#" id="nao_Possui_Conta"> Ainda não possuo uma conta </a>
 
-        </main>
-    
+
+            </form>
+
+        </div>
+
+
+
+    </main>
+
 </body>
+
 </html>
