@@ -10,16 +10,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background: linear-gradient(#F4B400,rgb(161, 162, 165));
+
 }
 
 main{
     width: 1142px;
-    height: 673px;
-    border: 2px solid rgb(19, 19, 78);;
+    height: 661px;
     margin: 0 auto;
     margin-top: 115px;
     display: flex;
+    box-shadow: 0 0 10px rgb(13, 13, 73);
+    border-radius: 27px;
+
+    
 }
 
 
@@ -29,10 +33,11 @@ img{
 }
 
 .sessao_Imagem{
-    background-image: url(img/login_Fundo.png);
-    height: 673px;
-    width: 610px;
-                                 
+    
+    height: 661px;
+    width: 510px;
+    border-radius: 15px;
+                              
 }
 
 .sessao_Login{
@@ -41,6 +46,27 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(img/login_Fundo.png);
+    width: 1200px;
+    
+}
+
+#login{
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+span{
+    font-size: 37px;
+    font-weight: bold;
+}
+
+#login_h3{
+    margin-bottom: 47px;
+    margin-top:-45px;
+    font-weight: lighter;
 }
 
 
@@ -84,6 +110,9 @@ button:hover{
     bottom: 3px;
 }
 
-form a{
+
+
+main a {
     color: #F4B400;
+    
 }
