@@ -1,0 +1,77 @@
+@import url(login.css);
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#F4B400,rgb(161, 162, 165));
+
+}
+
+main{
+    width: 1142px;
+    height: 661px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 10px rgb(13, 13, 73);
+    border-radius: 27px;
+    background-image: url(img/login_Fundo.png);   
+}
+
+.title_Cadastro{
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    color: rgb(25, 25, 92);
+    
+}
+h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.title_Cadastro span{
+    color: #F4B400;
+    font-weight: bold;
+    
+}
+
+.sessao_Cadastro{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    height: 20px;
+    width: 450px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+label{
+    font-weight: 38px;
+    font-weight: bold;
+    margin-right: 400px;
+}
+
+.parte_Btn{
+        margin-top: 40px;
+}
+
+#btn_Cadastre{
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: rgb(11, 11, 54);
+    color: aliceblue;
+    font-weight: bold;
+
+}
