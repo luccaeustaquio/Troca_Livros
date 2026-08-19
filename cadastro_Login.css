@@ -46,7 +46,7 @@ h1{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 form input{
@@ -60,7 +60,8 @@ form input{
 label{
     font-weight: 38px;
     font-weight: bold;
-    margin-right: 400px;
+    
+
 }
 
 .parte_Btn{
@@ -68,10 +69,15 @@ label{
 }
 
 #btn_Cadastre{
-    padding: 10px 30px;
+    padding: 0px 40px;
     border-radius: 4px;
     background-color: rgb(11, 11, 54);
     color: aliceblue;
     font-weight: bold;
+    margin-bottom: 20px;
 
+}
+
+#confirmar_Senha1{
+    
 }
