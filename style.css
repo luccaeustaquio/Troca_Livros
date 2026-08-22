@@ -179,6 +179,7 @@ p {
 }
 
 .grade-livros {
+
     display: flex;
     padding: 25px;
     
@@ -432,3 +433,10 @@ p {
 
 
 
+@media(max-width: 400px){
+
+    .grade-livros {
+        flex-direction: column;
+    }
+
+}

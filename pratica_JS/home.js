@@ -40,3 +40,38 @@ btn_Verde2.addEventListener('click', function(){
   caixa.style.backgroundColor = "yellow";
 })
 
+
+const valorReal =  document.getElementById("valor_real")
+let contador = 0;
+
+document.getElementById("btn_menos").addEventListener('click', 
+    () => {
+        if (contador > 0 ){
+            contador --;
+            valorReal.textContent = contador;
+        
+        }
+        
+    }
+)
+
+document.getElementById("btn_mais").addEventListener('click',
+    () => {
+        contador ++;
+        valorReal.textContent = contador;
+    }
+
+)
+
+// Adicionando Livros 
+
+const nomeLivro = document.getElementById("nome_livro")
+const lista_livros = document.getElementById("lista_livros")
+
+document.getElementById("adiciona_livro").addEventListener('click',
+     () => {
+        const novoLivro = document.createElement("li")
+        novoLivro.textContent = nomeLivro.value;
+        lista_livros.appendChild(novoLivro)
+
+     })

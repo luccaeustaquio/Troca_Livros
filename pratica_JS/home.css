@@ -38,3 +38,40 @@ h2{
     padding: 5px 10px;
     margin-right: 12px;
 }
+
+.area_add_sub{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    font-size: 25px;
+    align-items: center;
+    
+}
+
+.area_add_sub button{
+    padding: 8px 12px ;
+    background-color: darkred;
+    color: aliceblue;
+    border: 1px solid;
+    font-size: 20px
+
+}
+
+.area_add_sub button:hover{
+    background-color: rgb(211, 111, 111);
+    transition: 2s;
+}
+
+ul{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+
+li{
+    list-style: none;
+    background-color: blanchedalmond;
+    padding:  0px 100px;
+    margin: 0 auto;
+
+}
